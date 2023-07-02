@@ -16,3 +16,4 @@ https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numb
 
 You can copy or save the prime numbers to a file. Just click the `Save` button, or press `Ctrl + S`. The file will be saved in the same directory as the program. The file will be named `Primes-<date-timestamp>.txt`. Click the copy button to copy whatever textbox your cursor is in. 
 
+You can download a compiled version of the program under "Releases" on the right side of the page.

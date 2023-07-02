@@ -154,6 +154,7 @@
             fctbPrimes.CharWidth = 8;
             fctbPrimes.DefaultMarkerSize = 8;
             fctbPrimes.DisabledColor = Color.FromArgb(100, 180, 180, 180);
+            fctbPrimes.Font = new Font("Courier New", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             fctbPrimes.IsReplaceMode = false;
             fctbPrimes.Location = new Point(609, 68);
             fctbPrimes.Name = "fctbPrimes";
@@ -178,6 +179,7 @@
             fctbOnes.CharWidth = 8;
             fctbOnes.DefaultMarkerSize = 8;
             fctbOnes.DisabledColor = Color.FromArgb(100, 180, 180, 180);
+            fctbOnes.Font = new Font("Courier New", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             fctbOnes.IsReplaceMode = false;
             fctbOnes.Location = new Point(197, 68);
             fctbOnes.Name = "fctbOnes";
@@ -202,7 +204,6 @@
             fctbNumbers.CharWidth = 8;
             fctbNumbers.DefaultMarkerSize = 8;
             fctbNumbers.DisabledColor = Color.FromArgb(100, 180, 180, 180);
-            fctbNumbers.Font = new Font("Courier New", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             fctbNumbers.IsReplaceMode = false;
             fctbNumbers.Location = new Point(12, 68);
             fctbNumbers.Name = "fctbNumbers";
@@ -602,9 +603,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(tscToolsContainer);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = msMenu;
             Name = "RPN";
-            Text = "Form1";
+            Text = "Regex Prime Numbers";
             Load += RPN_Load;
             tscToolsContainer.BottomToolStripPanel.ResumeLayout(false);
             tscToolsContainer.BottomToolStripPanel.PerformLayout();
